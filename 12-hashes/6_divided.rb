@@ -36,4 +36,3 @@ halves = numbers.map do |k, v|
 
 p halves
 
-
