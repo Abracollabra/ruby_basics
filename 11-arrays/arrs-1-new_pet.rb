@@ -2,26 +2,28 @@
 
 # In the code below, an array containing different types of pets is assigned to pets.
 
+# LS solution follows
 
-def mine(pets)
-  arr = pets.select { |liz| liz == "fish" }
-  my_pet = arr.pop
-  puts "I have a pet #{my_pet}!"   
-end
+pets = ['cat', 'dog', 'fish', 'lizard']
 
-a = ["cat", "dog", "fish", "lizard"]
+my_pet = pets[2]
 
-mine(a)
+puts "I have a pet #{my_pet}!"
 
 
+# This was my tortured solution...
 
+# pets = ['cat', 'dog', 'fish', 'lizard']
 
+# def mine(pets)
+#   arr = pets.select { |one| one == "fish" }
+#   my_pet = arr.pop
+#   puts "I have a pet #{my_pet}!"   
+# end
 
+# a = ["cat", "dog", "fish", "lizard"]
 
-
-
-
-
+# mine(a)
 
 
 
